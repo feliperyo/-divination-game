@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background: url("./assets/fantasy-bg.jpg");
+    background-size: cover;
+    width: 100vw;
+    min-height: 50vh;
+}
+
+main {
+    background-color: rgb(240, 248, 255, 0.8);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    margin: 10% auto 0px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    margin: 40px 0px 10px 0px;
+}
+
+.quadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.img-quadrado1,
+.img-quadrado2,
+.img-quadrado3 {
+    width: 30px;
+}
+
+input {
+    width: 188px;
+    margin: 10px 0px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(142, 222, 222);
+    cursor: pointer;
+    width: 50px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+button:active {
+    background-color: aquamarine;
+}
+
+p {
+    text-align: center;
+}
+
+@media screen and (max-width:1700px) {
+    body {
+        background-size: 110%;
+    }
+}
+
+@media screen and (max-width:1550px) {
+    body {
+        background-size: 120%;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    body {
+        background-size: 260%;
+    }
+
+    main {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-size: 385%;
+    }
+
+    main {
+        margin-top: 35%;
+        width: 100vw;
+    }
+}

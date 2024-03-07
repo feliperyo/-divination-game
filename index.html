@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Ojuju:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Consegue Adivinhar?</title>
+</head>
+
+<body>
+    <main>
+        <h1>Pensei em um número entre 0 e 10, consegue adivinhar?</h1>
+        <h2>Você tem 3 chances:</h2>
+
+        <div class="quadrado">
+            <img class="img-quadrado1" src="./assets/quadrado.png">
+            <img class="img-quadrado2" src="./assets/quadrado.png">
+            <img class="img-quadrado3" src="./assets/quadrado.png">
+        </div>
+
+        <p></p>
+
+        <div class="inputs">
+            <input class="choice1" name="number1" type="number" />
+            <input disabled class="choice2" name="number2" type="number" />
+            <input disabled class="choice3" name="number3" type="number" />
+        </div>
+
+        <div class="buttons">
+            <button class="button1">1ª</button>
+            <button class="button2" disabled>2ª</button>
+            <button class="button3" disabled>3ª</button>
+        </div>
+    </main>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
