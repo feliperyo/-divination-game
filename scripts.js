@@ -20,7 +20,7 @@ console.log(sortNumber)
 function compareNumber1() {
 
     if (choiceNumber1.value == sortNumber) {
-        p.innerHTML = "Parabéns, você acertou de primeira!"
+        p.innerHTML = "Parabéns, você acertou de primeira!<br> Atualize a página para jogar de novo"
         quadrado1.src = "./assets/quadrado-J.png"
     }
     else {
@@ -35,11 +35,11 @@ function compareNumber1() {
 
 function compareNumber2() {
     if (choiceNumber2.value == sortNumber) {
-        p.innerHTML = "Parabéns, você acertou na segunda chance!"
+        p.innerHTML = "Parabéns, você acertou na segunda chance!<br> Atualize a página para jogar de novo"
         quadrado2.src = "./assets/quadrado-J.png"
     }
     else {
-        p.innerHTML = `Você tentou ${choiceNumber2.value} e errou, sobrarou 1 tentativa:`
+        p.innerHTML = `Você tentou ${choiceNumber2.value} e errou, sobrou 1 tentativa:`
         quadrado2.src = "./assets/quadrado-x.png";
         choiceNumber2.disabled = true;
         button2.disabled = true;
