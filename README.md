@@ -1,5 +1,5 @@
 <h1 align="center">
-  Jogo da Adivinhação</h1>
+  Jogo de Adivinhação</h1>
 <h3 align="center">Estudo de JavaScript.</h3>
 <br>
 
