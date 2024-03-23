@@ -1,10 +1,10 @@
 <h1 align="center">
-  Jogo de Adivinhação</h1>
+  Jogo da Adivinhação</h1>
 <h3 align="center">Estudo de JavaScript.</h3>
 <br>
 
 <div align="center">
-  <img width="800px" src="https://github.com/feliperyo/divination-game/blob/master/assets/mockup.png?raw=true"/>
+  <img width="700px" src="https://github.com/feliperyo/divination-game/blob/master/assets/mockup.png?raw=true"/>
 </div>
 
 <br>
