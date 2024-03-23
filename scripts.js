@@ -19,6 +19,8 @@ function compareNumber1() {
     p.innerHTML =
       "Parabéns, você acertou de primeira!<br> Atualize a página para jogar de novo";
     quadrado1.src = "./assets/quadrado-J.png";
+    choiceNumber1.disabled = true;
+    button1.disabled = true;
   } else {
     p.innerHTML = `Você tentou ${choiceNumber1.value} e errou, sobraram 2 tentativas:`;
     quadrado1.src = "./assets/quadrado-x.png";
@@ -34,6 +36,8 @@ function compareNumber2() {
     p.innerHTML =
       "Parabéns, você acertou na segunda chance!<br> Atualize a página para jogar de novo";
     quadrado2.src = "./assets/quadrado-J.png";
+    choiceNumber2.disabled = true;
+    button2.disabled = true;
   } else {
     p.innerHTML = `Você tentou ${choiceNumber2.value} e errou, sobrou 1 tentativa:`;
     quadrado2.src = "./assets/quadrado-x.png";
@@ -49,6 +53,8 @@ function compareNumber3() {
     p.innerHTML =
       "Parabéns, você acertou na última chance!<br> Atualize a página para jogar de novo";
     quadrado3.src = "./assets/quadrado-J.png";
+    choiceNumber3.disabled = true;
+    button3.disabled = true;
   } else {
     p.innerHTML = `Infelizmente você perdeu, pensei no número ${sortNumber}.<br> Atualize a página e tente novamente`;
     quadrado3.src = "./assets/quadrado-x.png";
